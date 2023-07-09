@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculoter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="min">
+        
+        <div class="ch">
+
+            <button  class="chang" onclick="ff()"></button>
+        </div>
+        <form name="frm">
+            
+            <input type="text" id="in" name="out" class="inpu" >
+            
+        </form>
+        
+        <div class="ro1">
+        <button id="clearr" value="#" onclick="fun(this)" class="cc">Ac</button>
+        <button value="()" onclick="fun(this)" class="cc" id="but()">()</button>
+        <button  value="%" onclick="fun(this)" class="cc" id="but%">%</button>
+        <button id="but/" value="/" onclick="fun(this)" class="cc">/</button>
+    </div>
+    
+    <div class="ro1">
+        <button id="but7" value="7" onclick="fun(this)" class="cl">7</button>
+        <button id="but8" value="8" onclick="fun(this)" class="cl">8</button>
+        <button id="but9" value="9" onclick="fun(this)" class="cl">9</button>
+        <button id="but*" value="*" onclick="fun(this)" class="cc">x</button>
+    </div>
+
+    <div class="ro1">
+        <button id="but4" value="4" onclick="fun(this)" class="cl">4</button>
+        <button id="but5" value="5" onclick="fun(this)" class="cl">5</button>
+        <button id="but6" value="6" onclick="fun(this)" class="cl">6</button>
+        <button id="but-" value="-" onclick="fun(this)" class="cc">-</button>
+    </div>
+
+    <div class="ro1">
+        <button id="but1"value="1"onclick="fun(this)" class="cl">1</button>
+        <button id="but2"value="2"onclick="fun(this)" class="cl">2</button>
+        <button id="but3" value="3" onclick="fun(this)" class="cl">3</button>
+        <button id="but+" value="+" onclick="fun(this)" class="cc">+</button>
+    </div>
+    
+    <div class="ro1">
+        <button value="0" id="but0" onclick="fun(this)" class="cl">0</button>
+        <button  value="00" id="but00" onclick="fun(this)" class="cl">00</button>
+        <button  value="." id="but." onclick="fun(this)" class="cl">.</button>
+        <button id="fact" value="!" onclick="fun(this)" class="cc">!</button>
+        
+    </div>
+    <div class="ro1">
+        <button id="p2"  value="^^" onclick="fun(this)" class="cl">x^2</button>
+        <button id="p3"  value="^^^" onclick="fun(this)" class="cl">x^3</button>
+        <button id="e" value="=" onclick="fun(this)" class="c">=</button>
+    </div>
+    
+</div>
+    <script src="index.js">
+        </script>
+        
+</body>
+</html>
